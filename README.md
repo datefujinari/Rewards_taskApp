@@ -1,16 +1,27 @@
-# todoapp
+# Flutter Todo App (Development Roadmap Project)
 
-A new Flutter project.
+Flutterの学習を目的とした、多機能Todoアプリの開発プロジェクトです。
+シンプルなタスク管理から始まり、スマートフォン独自の機能やバックグラウンド処理を段階的に実装していくことを目指しています。
 
-## Getting Started
+## 🎯 プロジェクトの目的
+Flutterの基本（UI、状態管理）から、OS固有の機能（通知、アプリロック）、バックグラウンド連携（Firebase、チーム機能）までを体系的に習得する。
 
-This project is a starting point for a Flutter application.
+## ✅ 現在の進捗（v0.1.0）
+- [x] プロジェクトの初期セットアップ
+- [x] iOS実機でのデバッグ環境構築（Signing & Local Network設定完了）
+- [x] 最小構成による動作確認（Hello World / 基本UI）
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 今後の実装ロードマップ
+最終的に以下の機能を追加する予定です：
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **リマインダー機能**：`flutter_local_notifications` を使用した通知機能。
+2. **データの永続化**：アプリを閉じてもタスクが消えないローカル保存機能。
+3. **継続支援システム**：ランキング、経験値報酬などのゲーミフィケーション。
+4. **チーム/個人タスク**：Firebaseを用いたユーザー間でのタスク共有。
+5. **報酬設定機能**：タスククリアによるインセンティブ付与。
+6. **アプリロック機能**：集中を促すための他のアプリへのアクセス制限。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ 開発環境
+- Flutter / Dart
+- Android Studio
+- Xcode (iOS 実機デバッグ用)
